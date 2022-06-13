@@ -1,0 +1,205 @@
+@import url('https://fonts.google.com/specimen/Overpass');
+
+@media (max-width: 375px) {
+    #container {width: 320px;}
+    #container {height: 317px;}
+}
+
+/* @media screen and (max-width: 1440px) {
+    #container {width: 340px;}
+    #container {height: 317px;}
+} */
+
+@media  (min-width: 376px) {
+    #container {width: 345px;}
+    #container {height: 317px;}
+}
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+
+.container {
+    width: 23%;
+    height: 34%;
+    border: 3px solid hsl(213, 19%, 18%) ;
+    border-radius: 25px;
+    background-color: hsl(213, 19%, 18%);
+   padding: 20px 5px 2px;
+}
+
+#svg {
+    position: relative;
+    top: 5px;
+    left: 15px;
+    border: 10px solid hsl(217, 8%, 58%);;
+    border-radius: 50%;
+    background-color: hsl(217, 8%, 58%);
+}
+
+h2 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+#containerp {
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.numbers {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.item {
+    background-color: hsl(216, 12%, 54%);
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    line-height: 30px;
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: hsl(25, 97%, 53%); 
+    color: hsl(0, 0%, 100%);
+}
+
+
+button {
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    width: 85%;
+    /* text-align: center; */
+    /* align-content: center; */
+    padding-left: 37%;
+    border-radius: 30px;
+    height: 35px;
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Overpass', sans-serif;
+    color: hsl(0, 0%, 100%);
+    background-color:  hsl(25, 97%, 53%); 
+    cursor: pointer;
+    border-color: hsl(25, 97%, 53%);;
+}
+
+button:active {
+    color: hsl(25, 97%, 53%); 
+    background-color: hsl(0, 0%, 100%);
+}
+
+.item:active {
+    background-color: hsl(25, 97%, 53%); 
+    color: hsl(0, 0%, 100%);
+} 
+
+/* card 2 */
+
+@media (max-width: 375px) {
+    #container2 {width: 320px;}
+    #container2 {height: 317px;}
+}
+
+/* @media screen and (max-width: 1440px) {
+    #container {width: 340px;}
+    #container {height: 317px;}
+} */
+
+@media  (min-width: 376px) {
+    #container2 {width: 345px;}
+    #container2 {height: 317px;}
+}
+
+.container2 {
+    width: 28%;
+    height: 34%;
+    border: 3px solid hsl(213, 19%, 18%) ;
+    border-radius: 25px;
+    background-color: hsl(213, 19%, 18%);
+    padding: 20px 10px 2px;
+}
+
+svg {
+    position: relative;
+    left: 24.5%;
+    top: auto;
+}
+
+.p1 {
+    border: 2px solid hsl(216, 12%, 54%);
+    background-color: hsl(216, 12%, 54%);
+    width: 70%;
+    height: 25px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    line-height: 25px;
+    padding: 3px 10px;
+    border-radius: 20px;
+    color: hsl(25, 97%, 53%);
+    font-size: 15px;
+    font-weight: 400;
+    font-family:  'Overpass', sans-serif;
+}
+
+h3 {
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#container2 {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#container2.show {
+   display: block;
+}
